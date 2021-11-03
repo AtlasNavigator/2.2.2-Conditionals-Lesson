@@ -45,10 +45,13 @@ if (num4 > 10) {
 }
 console.log('end of program');
 
-let secret = 49;
+let secret = 7;
 if (secret % 49 == 0) {
-  console.log ('greater than 10');
-} else {
-  console.log('smaller than 10');
+  console.log('divisible by 49');
 }
-console.log('end of program')
+if (secret>10) {
+  console.log('greater than 10');
+} else {
+  console.log('less than 10');
+}
+console.log ('end of program');
